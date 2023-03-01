@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "htmldemo"
+version = "0.1.0"
+description = "html demo"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^2.2.3"
+Flask-SQLAlchemy = "^3.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pep8 = "^1.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
